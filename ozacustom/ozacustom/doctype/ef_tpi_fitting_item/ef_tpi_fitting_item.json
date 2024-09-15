@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-07 00:03:50.999056",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "test_name",
+  "test_standard",
+  "conditions",
+  "column_break_wgfa",
+  "unit",
+  "specification",
+  "result"
+ ],
+ "fields": [
+  {
+   "fieldname": "test_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Test Name",
+   "options": "Quality Test"
+  },
+  {
+   "fieldname": "test_standard",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Standard"
+  },
+  {
+   "fieldname": "conditions",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Conditions"
+  },
+  {
+   "fieldname": "column_break_wgfa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Unit"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Specification"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Result",
+   "options": "OK\nNot OK"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-07 00:08:36.489360",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "EF TPI FITTING Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

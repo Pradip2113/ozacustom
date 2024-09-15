@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-08 15:48:07.580294",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "min_outer_dia",
+  "max_outer_dia",
+  "ovality_max",
+  "o_d_by_pi_tape",
+  "column_break_vtbg",
+  "out_of_seq_max",
+  "wall_thik_min",
+  "wall_thik_max",
+  "pipe_length"
+ ],
+ "fields": [
+  {
+   "fieldname": "min_outer_dia",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Min Outer Dia. by Vernier.(mm)"
+  },
+  {
+   "fieldname": "max_outer_dia",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Max Outer Dia. by Vernier.(mm)"
+  },
+  {
+   "fieldname": "ovality_max",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ovality (mm) Max"
+  },
+  {
+   "fieldname": "o_d_by_pi_tape",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "O.D. by Pi Tape (mm)"
+  },
+  {
+   "fieldname": "column_break_vtbg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "out_of_seq_max",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Out of Squareness"
+  },
+  {
+   "fieldname": "wall_thik_min",
+   "fieldtype": "Data",
+   "label": "Min Wall Thickness (mm)"
+  },
+  {
+   "fieldname": "wall_thik_max",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Max Wall Thickness (mm)"
+  },
+  {
+   "fieldname": "pipe_length",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pipe Length (m)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-13 12:29:06.187238",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Quality Inspection Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

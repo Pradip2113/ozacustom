@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-29 15:06:03.393159",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "test",
+  "no_of_sample",
+  "test_temp",
+  "induced_stress",
+  "column_break_hpud",
+  "test_period",
+  "calculate_test_pressure",
+  "result"
+ ],
+ "fields": [
+  {
+   "fieldname": "test",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Test",
+   "options": "Quality Test"
+  },
+  {
+   "fieldname": "no_of_sample",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No of Sample",
+   "precision": "0"
+  },
+  {
+   "fieldname": "test_temp",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Temp (\u00b0c)",
+   "precision": "0"
+  },
+  {
+   "fieldname": "calculate_test_pressure",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Calculate Test Pressure (kgf/cm\u00b2)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "test_period",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Period",
+   "precision": "2"
+  },
+  {
+   "fieldname": "induced_stress",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Induced Stress in MPa/kg",
+   "precision": "2"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Result",
+   "options": "Pass\nFail"
+  },
+  {
+   "fieldname": "column_break_hpud",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-07 14:45:09.414421",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Internal Pressure test",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

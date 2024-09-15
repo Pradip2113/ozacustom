@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{document_name}",
+ "creation": "2024-04-08 00:52:42.984282",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "set_batch_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "set_batch_table",
+   "fieldtype": "Table",
+   "label": "Set Batch Table",
+   "options": "Set Batch Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-08 22:44:38.698242",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Batch Order",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

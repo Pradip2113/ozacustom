@@ -1,0 +1,249 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2024-06-09 16:29:54.557969",
+ "default_view": "List",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "sales_order",
+  "column_break_4",
+  "batch_no",
+  "column_break_xpuw",
+  "order_qty",
+  "column_break_nmyl",
+  "date",
+  "section_break_7",
+  "item_code",
+  "column_break1",
+  "item_name",
+  "inspection_offer_letter",
+  "specification_details",
+  "quality_inspection_template",
+  "quality_inspection_item",
+  "longitudinal_reversion",
+  "longitudinal_reversion_test",
+  "internal_pressure_template",
+  "internal_pressure_test",
+  "quality_other_test_template",
+  "quality_other_test",
+  "section_break_14",
+  "shift",
+  "machin_operator",
+  "marking",
+  "inspected_by",
+  "column_break_17",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "no_copy": 1,
+   "options": "MAT-QA-.YYYY.-",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Item Code",
+   "oldfieldname": "item_code",
+   "oldfieldtype": "Link",
+   "options": "Item",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "batch_no",
+   "fieldtype": "Data",
+   "label": "Batch No",
+   "oldfieldname": "batch_no",
+   "oldfieldtype": "Link",
+   "options": "Batch"
+  },
+  {
+   "fieldname": "column_break1",
+   "fieldtype": "Column Break",
+   "oldfieldtype": "Column Break",
+   "width": "50%"
+  },
+  {
+   "fetch_from": "item_code.item_name",
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "label": "Item Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "specification_details",
+   "fieldtype": "Section Break",
+   "oldfieldtype": "Section Break",
+   "options": "Simple"
+  },
+  {
+   "fieldname": "quality_inspection_template",
+   "fieldtype": "Link",
+   "label": "Quality Inspection Template",
+   "options": "Quality Inspection Template"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "user",
+   "fieldname": "inspected_by",
+   "fieldtype": "Link",
+   "label": "Inspected By",
+   "oldfieldname": "inspected_by",
+   "oldfieldtype": "Data",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks",
+   "no_copy": 1,
+   "oldfieldname": "remarks",
+   "oldfieldtype": "Text"
+  },
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fieldname": "column_break_xpuw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inspection_offer_letter",
+   "fieldtype": "Link",
+   "label": "Inspection Offer Letter",
+   "options": "Inspection Offer Letter"
+  },
+  {
+   "fieldname": "quality_inspection_item",
+   "fieldtype": "Table",
+   "label": "Quality Inspection Item",
+   "options": "Quality Inspection Item"
+  },
+  {
+   "fieldname": "longitudinal_reversion",
+   "fieldtype": "Link",
+   "label": "Longitudinal Reversion",
+   "options": "Longitudinal Reversion Template"
+  },
+  {
+   "fieldname": "longitudinal_reversion_test",
+   "fieldtype": "Table",
+   "label": "Longitudinal Reversion Test",
+   "options": "Longitudinal Reversion Test"
+  },
+  {
+   "fieldname": "internal_pressure_template",
+   "fieldtype": "Link",
+   "label": "Internal Pressure Template",
+   "options": "Internal Pressure test Template"
+  },
+  {
+   "fieldname": "internal_pressure_test",
+   "fieldtype": "Table",
+   "label": "Internal Pressure test",
+   "options": "Internal Pressure test"
+  },
+  {
+   "fieldname": "quality_other_test_template",
+   "fieldtype": "Link",
+   "label": "Quality Other Test Template",
+   "options": "Quality Other Test Template"
+  },
+  {
+   "fieldname": "quality_other_test",
+   "fieldtype": "Table",
+   "label": "Quality Other Test",
+   "options": "Quality Other Test"
+  },
+  {
+   "fieldname": "marking",
+   "fieldtype": "Select",
+   "label": "Marking",
+   "options": "OZA\nO+"
+  },
+  {
+   "fieldname": "order_qty",
+   "fieldtype": "Float",
+   "label": "Production Qty",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_nmyl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Select",
+   "label": "Shift",
+   "options": "\n1\n2\n3"
+  },
+  {
+   "fieldname": "machin_operator",
+   "fieldtype": "Data",
+   "label": "Machin Operator"
+  }
+ ],
+ "icon": "fa fa-search",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-13 14:50:31.023846",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Manually Quality Inspections",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Quality Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "states": []
+}

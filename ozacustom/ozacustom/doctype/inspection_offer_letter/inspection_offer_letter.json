@@ -1,0 +1,175 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{inspection_letter_name}",
+ "creation": "2024-05-09 22:44:41.229615",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "inspection_letter_name",
+  "sales_order_no",
+  "column_break_fmwi",
+  "contractor_name",
+  "purchase_order_no",
+  "column_break_iguy",
+  "sales_order_date",
+  "customer_name",
+  "tpi_agency",
+  "column_break_jndf",
+  "inspection_date",
+  "section_break_utgg",
+  "name_of_scheme",
+  "fitting_item",
+  "lft",
+  "rgt",
+  "is_group",
+  "old_parent",
+  "parent_inspection_offer_letter"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_order_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales Order No",
+   "options": "Sales Order",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fmwi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "sales_order_no.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "column_break_iguy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sales_order_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jndf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "inspection_date",
+   "fieldtype": "Date",
+   "label": "Inspection Date"
+  },
+  {
+   "fieldname": "section_break_utgg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_of_scheme",
+   "fieldtype": "Small Text",
+   "label": "Name of Scheme",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fitting_item",
+   "fieldtype": "Table",
+   "label": "Fitting Item",
+   "options": "Quality SO Parameter"
+  },
+  {
+   "fieldname": "lft",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Left",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "rgt",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Right",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_group",
+   "fieldtype": "Check",
+   "label": "Is Group"
+  },
+  {
+   "fieldname": "old_parent",
+   "fieldtype": "Link",
+   "label": "Old Parent",
+   "options": "Inspection Offer Letter"
+  },
+  {
+   "fieldname": "parent_inspection_offer_letter",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Parent Inspection Offer Letter",
+   "options": "Inspection Offer Letter"
+  },
+  {
+   "fieldname": "contractor_name",
+   "fieldtype": "Data",
+   "label": "Contractor Name"
+  },
+  {
+   "fieldname": "purchase_order_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Purchase Order No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "inspection_letter_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection Letter NAME",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "sales_order_no.custom_tpi_agency_name",
+   "fieldname": "tpi_agency",
+   "fieldtype": "Link",
+   "label": "TPI Agency",
+   "options": "TPI Agency"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-06 15:48:15.698789",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Inspection Offer Letter",
+ "naming_rule": "Expression",
+ "nsm_parent_field": "parent_inspection_offer_letter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

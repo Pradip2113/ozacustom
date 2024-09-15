@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-29 15:14:00.234931",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "test_period",
+  "initial_lenght",
+  "final_length",
+  "reversion"
+ ],
+ "fields": [
+  {
+   "fieldname": "test_period",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Test Period (Minutes)",
+   "precision": "0"
+  },
+  {
+   "fieldname": "initial_lenght",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Initial Length (mm)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "final_length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Final Length (After Test)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "reversion",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Reversion in %",
+   "precision": "2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-29 15:17:31.949781",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Longitudinal Reversion Test",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

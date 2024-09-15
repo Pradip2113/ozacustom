@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:QA-{sales_order_no}",
+ "creation": "2024-05-07 16:58:19.756394",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_order_no",
+  "purchase_order",
+  "column_break_ieva",
+  "customer_name",
+  "contractor_name",
+  "column_break_qvxu",
+  "sales_order_date",
+  "date",
+  "column_break_xbuh",
+  "name_of_scheme",
+  "section_break_paee",
+  "items",
+  "quality_assurance_plan_fitting_template",
+  "quality_assurance_plan_fitting_item"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_order_no",
+   "fieldtype": "Link",
+   "label": "Sales Order No",
+   "options": "Sales Order"
+  },
+  {
+   "fetch_from": "sales_order_no.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "sales_order_date",
+   "fieldtype": "Date",
+   "label": "PO Date"
+  },
+  {
+   "fieldname": "name_of_scheme",
+   "fieldtype": "Small Text",
+   "label": "Name Of Scheme"
+  },
+  {
+   "fieldname": "column_break_ieva",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qvxu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xbuh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_paee",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Quality Assurance Plan Fitting Sales Order"
+  },
+  {
+   "fieldname": "quality_assurance_plan_fitting_template",
+   "fieldtype": "Link",
+   "label": "Quality Assurance Plan Fitting Template",
+   "options": "Quality Assurance Plan Fitting Template"
+  },
+  {
+   "fieldname": "quality_assurance_plan_fitting_item",
+   "fieldtype": "Table",
+   "label": "Quality Assurance Plan Fitting Item",
+   "options": "Quality Assurance Plan Fitting Item"
+  },
+  {
+   "fieldname": "purchase_order",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Purchase Order",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contractor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contractor Name",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-21 11:37:10.366155",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Quality Assurance Plan Fitting",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-27 15:39:29.732153",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "clause_no",
+  "test_name",
+  "samples",
+  "test_method",
+  "specification",
+  "column_break_vstw",
+  "documentation",
+  "inspection_by_m",
+  "inspection_by_tpi",
+  "inspection_by_b",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "clause_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Clause No"
+  },
+  {
+   "fieldname": "test_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Name"
+  },
+  {
+   "fieldname": "samples",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Samples"
+  },
+  {
+   "fieldname": "test_method",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Method"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Specification"
+  },
+  {
+   "fieldname": "column_break_vstw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "documentation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Documentation"
+  },
+  {
+   "fieldname": "inspection_by_m",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection By M"
+  },
+  {
+   "fieldname": "inspection_by_tpi",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection By TPI"
+  },
+  {
+   "fieldname": "inspection_by_b",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection By B"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-28 17:51:58.148121",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "EF TPI PIPE Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

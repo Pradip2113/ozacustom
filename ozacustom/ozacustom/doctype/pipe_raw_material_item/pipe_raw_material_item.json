@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-27 15:50:39.536745",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "clause_no",
+  "test_name",
+  "samples",
+  "test_method",
+  "column_break_rpks",
+  "specification",
+  "documentation",
+  "inspection_by_m",
+  "column_break_dzmk",
+  "inspection_by_tpi",
+  "inspection_by_b",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "clause_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Clause No"
+  },
+  {
+   "fieldname": "test_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Name"
+  },
+  {
+   "fieldname": "samples",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Samples"
+  },
+  {
+   "fieldname": "test_method",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Method"
+  },
+  {
+   "fieldname": "column_break_rpks",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Specification"
+  },
+  {
+   "fieldname": "documentation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Documentation"
+  },
+  {
+   "fieldname": "inspection_by_m",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection By M"
+  },
+  {
+   "fieldname": "column_break_dzmk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inspection_by_tpi",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection By TPI"
+  },
+  {
+   "fieldname": "inspection_by_b",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection By B"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-31 13:52:39.269387",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Pipe Raw Material Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

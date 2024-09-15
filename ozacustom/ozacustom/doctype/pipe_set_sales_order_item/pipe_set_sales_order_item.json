@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-27 15:46:23.215133",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "discricption",
+  "qty",
+  "column_break_negw",
+  "test_method",
+  "inspection_by_m",
+  "column_break_euad",
+  "inspection_by_tpi",
+  "inspection_by_b"
+ ],
+ "fields": [
+  {
+   "fieldname": "discricption",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Discricption"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_negw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "test_method",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Method"
+  },
+  {
+   "fieldname": "inspection_by_m",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection By M"
+  },
+  {
+   "fieldname": "column_break_euad",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inspection_by_tpi",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection By TPI"
+  },
+  {
+   "fieldname": "inspection_by_b",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection By B"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-31 10:12:31.714116",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Pipe set Sales Order Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

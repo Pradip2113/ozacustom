@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-07 16:37:51.499293",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "type_of_check",
+  "quantum_of_check",
+  "ref_doc",
+  "acceptance_norms",
+  "column_break_yyyh",
+  "documentation",
+  "inspection_manual",
+  "inspection_customer",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "type_of_check",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Type Of Check"
+  },
+  {
+   "fieldname": "quantum_of_check",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Quantum Of Check"
+  },
+  {
+   "fieldname": "ref_doc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ref Doc"
+  },
+  {
+   "fieldname": "acceptance_norms",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Acceptance Norms"
+  },
+  {
+   "fieldname": "column_break_yyyh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "documentation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Documentation"
+  },
+  {
+   "fieldname": "inspection_manual",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection Manual"
+  },
+  {
+   "fieldname": "inspection_customer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspection Customer"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-07 16:45:05.976317",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Quality Assurance Plan Fitting Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

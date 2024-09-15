@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-06 00:05:18.604802",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "carbon_black_content83",
+  "carbon_black_dispersion83",
+  "column_break_tnpa",
+  "melt_flow_index84",
+  "oxidation_induction_time85",
+  "column_break_gwqu",
+  "density_test87",
+  "elongation_at_break89",
+  "results"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_tnpa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gwqu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "carbon_black_content83",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Carbon black content83"
+  },
+  {
+   "fieldname": "carbon_black_dispersion83",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Carbon black Dispersion83"
+  },
+  {
+   "fieldname": "melt_flow_index84",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Melt flow index84"
+  },
+  {
+   "fieldname": "oxidation_induction_time85",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Oxidation Induction Time85"
+  },
+  {
+   "fieldname": "density_test87",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Density test87"
+  },
+  {
+   "fieldname": "elongation_at_break89",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Elongation at Break89"
+  },
+  {
+   "fieldname": "results",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Results"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-08 16:30:39.191628",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Quality Other Test",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

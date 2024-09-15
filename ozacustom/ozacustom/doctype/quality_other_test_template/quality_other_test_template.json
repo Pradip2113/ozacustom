@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{temp_name}",
+ "creation": "2024-06-06 16:14:44.094951",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "temp_name",
+  "quality_other"
+ ],
+ "fields": [
+  {
+   "fieldname": "temp_name",
+   "fieldtype": "Data",
+   "label": "Temp Name"
+  },
+  {
+   "fieldname": "quality_other",
+   "fieldtype": "Table",
+   "label": "Quality Other",
+   "options": "Quality Other Test"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-06 16:15:51.687863",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Quality Other Test Template",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

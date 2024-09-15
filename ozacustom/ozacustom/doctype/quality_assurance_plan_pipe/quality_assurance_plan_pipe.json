@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-05-27 15:59:21.196035",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "inspection_offer_letter",
+  "contractor_name",
+  "column_break_qesp",
+  "purchase_order",
+  "inspection_by",
+  "po_date",
+  "sales_order",
+  "column_break_mzos",
+  "date",
+  "scheme_name",
+  "section_break_ybwb",
+  "pipe_raw_material_template",
+  "material_item",
+  "section_break_sybx",
+  "ef_tpi_pipe_template",
+  "tpi_pipe_item",
+  "pipe_finish_material_template",
+  "ef_tpi_pipe_item",
+  "pipe_set_sales_order_item"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "QAP/OPS/HDPE/.##"
+  },
+  {
+   "fetch_from": "inspection_offer_letter.contractor_name",
+   "fieldname": "contractor_name",
+   "fieldtype": "Data",
+   "label": "Contractor Name"
+  },
+  {
+   "fetch_from": "inspection_offer_letter.name_of_scheme",
+   "fieldname": "scheme_name",
+   "fieldtype": "Small Text",
+   "label": "Scheme Name"
+  },
+  {
+   "fieldname": "column_break_mzos",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fetch_from": ".",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_qesp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "inspection_offer_letter.purchase_order_no",
+   "fieldname": "purchase_order",
+   "fieldtype": "Data",
+   "label": "Purchase Order"
+  },
+  {
+   "default": "OZA PIPING SYSTEM PVT. LTD. , D-33/2, MIDC MIRAJ. DIST- SANGLI.",
+   "fieldname": "inspection_by",
+   "fieldtype": "Data",
+   "label": "Manufacture & Inspection By"
+  },
+  {
+   "fetch_from": "inspection_offer_letter.sales_order_no",
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fieldname": "section_break_ybwb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pipe_raw_material_template",
+   "fieldtype": "Link",
+   "label": "Pipe Raw Material Template",
+   "options": "Pipe Raw Material Template"
+  },
+  {
+   "fieldname": "material_item",
+   "fieldtype": "Table",
+   "label": "Material Item",
+   "options": "Pipe Raw Material Item"
+  },
+  {
+   "fieldname": "section_break_sybx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ef_tpi_pipe_template",
+   "fieldtype": "Link",
+   "label": "EF TPI PIPE Template",
+   "options": "EF TPI PIPE Template"
+  },
+  {
+   "fieldname": "tpi_pipe_item",
+   "fieldtype": "Table",
+   "label": "TPI PIPE Item",
+   "options": "EF TPI PIPE Item"
+  },
+  {
+   "fieldname": "pipe_set_sales_order_item",
+   "fieldtype": "Table",
+   "label": "Pipe set Sales Order Item",
+   "options": "Pipe set Sales Order Item"
+  },
+  {
+   "fetch_from": "inspection_offer_letter.sales_order_date",
+   "fieldname": "po_date",
+   "fieldtype": "Date",
+   "label": "PO Date"
+  },
+  {
+   "fieldname": "pipe_finish_material_template",
+   "fieldtype": "Link",
+   "label": "Pipe Finish Material Template",
+   "options": "Pipe Finish Material Template"
+  },
+  {
+   "fieldname": "ef_tpi_pipe_item",
+   "fieldtype": "Table",
+   "label": "EF TPI PIPE Item",
+   "options": "EF TPI PIPE Item"
+  },
+  {
+   "fieldname": "inspection_offer_letter",
+   "fieldtype": "Link",
+   "label": "Inspection Offer Letter",
+   "options": "Inspection Offer Letter"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 11:58:14.483286",
+ "modified_by": "Administrator",
+ "module": "ozacustom",
+ "name": "Quality Assurance Plan Pipe",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

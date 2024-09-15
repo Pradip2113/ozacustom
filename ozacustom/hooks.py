@@ -8,6 +8,51 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
+{
+    "fixtures": [
+        {
+            "doctype": "Client Script",
+            "filters": [
+                [
+                    "name",
+                    "in",
+                    [
+                        "IN Word Amt",
+                        "Set Payment Type",
+                        "Item Weight On BOM",
+                        "Total Qty",
+                        "Set Batch Number",
+                        "Per Kg Rate",
+                        "Set Qty in Weight Work Order",
+                        "Valid Date 7 days",
+                        "Total Resolution",
+                        "Set Temp Value on Quality Inspection",
+                        "Realization",
+                        "custom_realization_on_rate",
+                        "Total Realization",
+                        "custom_realization_on_rate_sales"
+                    ]
+                ]
+            ]
+        },
+        {
+            "doctype": "Server Script",
+            "filters": [
+                [
+                    "name",
+                    "in",
+                    [
+                        "Valuation Rate",
+                        "Set Party Name",
+                        "Sales Name set"
+                    ]
+                ]
+            ]
+        }
+    ]
+}
+
+
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ozacustom/css/ozacustom.css"
